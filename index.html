@@ -20,7 +20,7 @@
     <button onclick="SpawnLeftHand()"> left hand </button>
     <button onClick="CountClicks()"> click counter </button> 
     <button onClick="SpawnRightHand()"> right hand </button>
-    <p id="2.1"></p>
+    <p id="output"></p>
   </center>
   
   
@@ -31,9 +31,9 @@
       document.getElementById("1.1").src = "left-hand.png";}
     function SpawnRightHand(){
       document.getElementById("1.1").src = "right-hand.png";}
+    var count = 0;
+    var output = document.getElementById("output");
     function CountClicks(){
-      var count = 0;
-      var output = document.getElementById("2.1");
       count = count + 1;
       output.innerHTML = count;
   </script>
