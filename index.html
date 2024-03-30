@@ -14,27 +14,18 @@
     </a>
     </h2>
     <img src="right-hand.png" id="1.1"> 
-  </body>
-  
-  <center>
-    <button onclick="SpawnLeftHand()"> left hand </button>
-    <button onClick="CountClicks()"> click counter </button> 
-    <button onClick="SpawnRightHand()"> right hand </button>
+    <button onClick="CountClicks()"> click counter </button>
     <p id="output"></p>
-  </center>
-  
-  
-
-  
-  <script>
-    function SpawnLeftHand(){
-      document.getElementById("1.1").src = "left-hand.png";}
-    function SpawnRightHand(){
-      document.getElementById("1.1").src = "right-hand.png";}
-    var count = 0;
-    var output = document.getElementById("output");
-    function CountClicks(){
-      count = count + 1;
-      output.innerHTML = count;
-  </script>
+    <center>
+      <button onclick="SpawnLeftHand()"> left hand </button>
+      <button onClick="SpawnRightHand()"> right hand </button>
+    </center>  
+    <script>
+      function SpawnLeftHand(){
+        document.getElementById("1.1").src = "left-hand.png";}
+      function SpawnRightHand(){
+        document.getElementById("1.1").src = "right-hand.png";}
+    </script>
+    <script src="buttoncounter.js"></script>
+    </body>
 </html>
