@@ -15,16 +15,23 @@
     </h2>
     <img src="right-hand.png" id="1.1"> 
   </body>
-  <center><button onclick="SpawnLeftHand()"> left hand </button>
+  
+  <center>
+    <button onclick="SpawnLeftHand()"> left hand </button>
+    <button onClick="CountClicks()"> click counter </button> 
     <button onClick="SpawnRightHand()"> right hand </button>
   </center>
+
+  <p id="2.1"> </p>
   <script>
     function SpawnLeftHand(){
       document.getElementById("1.1").src = "left-hand.png";}
     function SpawnRightHand(){
       document.getElementById("1.1").src = "right-hand.png";}
+    var count = 0;
+    var output = document.getElementById("2.1");
+    function CounClicks(){
+      count = count + 1;
+      output.innerHTML = count;
   </script>
-  <py-script src="python.py">
-    
-  </py-script>
 </html>
