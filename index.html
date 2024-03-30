@@ -15,12 +15,13 @@
     </h2>
     <img src="right-hand.png" id="1.1"> 
   </body>
-  <center><button onclick="Afunction()"> left hand </button>
-    <button onClick="Afunction()"> right hand </button>
+  <center><button onclick="SpawnLeftHand()"> left hand </button>
+    <button onClick="SpawnRightHand()"> right hand </button>
   </center>
   <script>
-    function Afunction(){
-      document.getElementById("1.1").src = "left-hand.png";
-    }
+    function SpawnLeftHand(){
+      document.getElementById("1.1").src = "left-hand.png";}
+    function SpawnRightHand(){
+      document.getElementById("1.1").src = "right-hand.png";}
   </script>
 </html>
