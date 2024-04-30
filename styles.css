@@ -4,7 +4,7 @@
 
 .container img {
     position: absolute;
-    left: 100px;
+    left: 300px;
     /* You can adjust top, right, and bottom properties as needed */
     top: 50px;
 }
