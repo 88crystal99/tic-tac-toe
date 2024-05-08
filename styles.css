@@ -1,6 +1,6 @@
 .left-hand {
     position: absolute;
-    left: 500px;
+    left: 300px;
     top: 50px;
     transform: rotate(180deg);
 }
