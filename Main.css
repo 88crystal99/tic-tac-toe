@@ -1,0 +1,7 @@
+.left-hand {
+    transform: rotate(180deg);
+}
+
+.right-hand {
+    transform: rotate(180deg);
+}
