@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+    left: 500px;
+    /* You can adjust top, right, and bottom properties as needed */
+    top: 150px;
+    transform: rotate(150deg); /* Rotate the image by 45 degrees */
+   
+}
