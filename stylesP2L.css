@@ -7,6 +7,6 @@
     left: 300px;
     /* You can adjust top, right, and bottom properties as needed */
     top: 150px;
-    transform: rotate(170deg); /* Rotate the image by 45 degrees */
+    transform: rotate(0deg); /* Rotate the image by 45 degrees */
    
 }
